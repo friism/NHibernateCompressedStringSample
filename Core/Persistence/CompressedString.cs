@@ -12,7 +12,7 @@ namespace Core.Persistence
 	{
 		public object Assemble(object cached, object owner)
 		{
-			throw new System.NotImplementedException();
+			throw new NotImplementedException();
 		}
 
 		public object DeepCopy(object value)
@@ -28,7 +28,7 @@ namespace Core.Persistence
 
 		public object Disassemble(object value)
 		{
-			throw new System.NotImplementedException();
+			throw new NotImplementedException();
 		}
 
 		public new bool Equals(object x, object y)
@@ -74,10 +74,10 @@ namespace Core.Persistence
 
 		public object Replace(object original, object target, object owner)
 		{
-			throw new System.NotImplementedException();
+			throw new NotImplementedException();
 		}
 
-		public System.Type ReturnedType
+		public Type ReturnedType
 		{
 			get { return typeof(string); }
 		}
